@@ -106,7 +106,7 @@ hr {
 }
 
 .content h2 {
-   font-size: 35px;
+   font-size: 50px;
    padding: 70px;
    display: block;
    border-right: 3px solid;
@@ -154,6 +154,7 @@ hr {
    width: 45%;
    height: 200px;
    margin: 2%;
+   position:relative;
 }
 
 .text {
@@ -162,17 +163,35 @@ hr {
    left: 50px;
    background-color: #626665;
    color: #e6ebe9;
-   width: 150px;
-   height: 75px;
+   width: 200px;
+   height: 100px;
    text-align: center;
-   
+   border-radius: 15px;
+   padding: 15px;
+   font-size: 25px;
 }
+
+.text-1 {
+   position: relative;
+   top: 75px;
+   left: 50px;
+   background-color: #626665;
+   color: #e6ebe9;
+   width: 200px;
+   height: 100px;
+   text-align: center;
+   border-radius: 15px;
+   padding: 15px;
+   font-size: 25px;
+}
+
+
 
 .project-1 {
    background-image: url('../images/Design-1.jpg');
-   width: 90%;
+   width: 95%;
    height: 300px;
-   margin: 2%;
+   margin-bottom: 2%;
    
 }
 
@@ -212,5 +231,8 @@ hr {
    flex-wrap: wrap;
    justify-content: space-around;
    align-items: center;
-   width: 70%
+   width: 70%;
+   font-size: 25px;
 }
+
+
