@@ -10,7 +10,7 @@ This is the first web application that I am writing from scratch for the Coding 
 * The page has a responsive layout that adapts to the viewport.
 
 ### Screenshot
-![Amy Rawls Bio Website](https://github.com/charliebear2000/my-bio-page/blob/main/screenshot.png?raw=true)
+![Amy Rawls Bio Website](https://github.com/charliebear2000/my-bio-page/blob/main/website-screenshot.png?raw=true)
 
 #### URL
 https://charliebear2000.github.io/my-bio-page/
