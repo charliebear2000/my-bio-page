@@ -36,7 +36,7 @@ header h1 {
 
 header a {
    text-decoration: none;
-   color:#626665
+   color:#626665;
 }
 
 header nav {
@@ -268,13 +268,9 @@ hr {
 
 header h1 {
    font-size: 35px;
-   }
-
-   header nav ul li a {
-   font-size: 22px;
 }
 
-.list {
+header nav ul li a {
    font-size: 22px;
 }
    
@@ -303,9 +299,6 @@ header h1 {
    font-size: 20px;
 }
 
-.projects p {
-   font-size: 15px;
-}
 .text {
    left: 15px;
    width: 150px;
@@ -320,9 +313,10 @@ header h1 {
 }
 
 .list {
-   font-size: 18px;
+   font-size: 18px; 
 }
- }
+
+}
  
  /* MEDIA QUERY FOR TABLETS AND SMALLER */
  @media screen and (max-width: 768px) {
@@ -353,7 +347,6 @@ header nav ul li a {
    font-size: 25px;
    width: 20%;
    padding-left: 0;
-   
 }
 
 .my-info p {
@@ -366,14 +359,9 @@ header nav ul li a {
    width: 80%;
 }
 
-.projects a {
-   font-size: 20px;
-}
-
 .projects p {
    font-size: 15px;
 }
-
 
 .text {
    top: 200px;
@@ -381,7 +369,6 @@ header nav ul li a {
 }
 
 .list {
-   font-size: 18px;
    width: 80%;
 }
  }
@@ -427,19 +414,19 @@ header nav ul li a {
     margin: 0;
  }
 
- .my-info p {
-    font-size: 15px;
- }
+ .content {
+   align-items: left;
+   flex-wrap: nowrap;
+}
 
  .content h2 {
     font-size: 20px;
     width: 25%;
  }
 
- .content {
-    align-items: left;
-    flex-wrap: nowrap;
- }
+ .my-info p {
+   font-size: 15px;
+}
 
  .my-work {
     flex-wrap: nowrap;
@@ -475,7 +462,7 @@ header nav ul li a {
 
 }
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+/* MEDIA QUERY FOR SMALLER MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 360px) {
 
    .hero h3 {
